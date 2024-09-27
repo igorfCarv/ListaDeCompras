@@ -56,7 +56,7 @@ export function criarItemDaLista(item) {
     botaoRemover.classList.add("item-lista-button");
 
     const imagemRemover = document.createElement("img");
-    imagemRemover.src = "img/delete.svg";
+    imagemRemover.src = "assets/image/delete.svg";
     imagemRemover.alt = "Remover";
 
     botaoRemover.appendChild(imagemRemover);
@@ -66,7 +66,7 @@ export function criarItemDaLista(item) {
     botaoEditar.classList.add("item-lista-button")
 
     const imagemEditar = document.createElement("img");
-    imagemEditar.src = "img/edit.svg";
+    imagemEditar.src = "assets/image/edit.svg";
     imagemEditar.alt = "Editar";
 
     botaoEditar.appendChild(imagemEditar);

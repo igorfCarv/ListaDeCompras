@@ -1,4 +1,4 @@
-import { adicionarItem } from "./adicionarItem";
+import { adicionarItem } from "./adicionarItem.js";
 import { verificarListaComprados } from "./verificarListaComprados.js";
 
 
