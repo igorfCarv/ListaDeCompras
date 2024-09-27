@@ -12,31 +12,42 @@
 </head>
 <body>
     <main>
-        <img src="./assets/image/bag.png" alt="sacola de compras" class="imagem" />
-
-        <form class="container-button">
-            <input type="text" id="itemInput" placeholder="Digite o item que deseja adicionar">
-            <button id="adicionarBtn">Salvar item</button>
+        <img src="./assets/image/bag.png" alt="sacola de compras">
+        <form>
+            <input class="input-item" type="text" placeholder="Digite o item que deseja adicionar"></input>
+            <button class="button-item">Salvar item</button>
         </form>
-        <section class="list">
-            <div>
-                <h2>Lista de Compras</h2>
-                <hr />
-                <ul id="listaDeCompras">
-                    <li>
+
+        <div class="container-lista">
+            <h2>Lista de compras</h2>
+            <hr>
+
+            <ul>
+                <li>
+                    <div class="lista-item-container">
                         <div>
-                            <input type="checkbox">
-                            <p>Ração do gato</p>
-                            <p>Segunda, 4 de maio de 2024</p>
-                            <div>
-                                <img src="./assets/image/delete" alt="remover"/>
-                                <img src="./assets/image/edit" alt="editar"/>
+                            <div class="container-checkbox">
+                                <label for="checkbox-1">
+                                    <input type="checkbox" class="input-checkbox" id="checkbox-1" />
+                                    <div class="checkbox-customizado checked"></div>
+                                </label>
                             </div>
+                            <p>Ração de gato</p>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+
+                        <div>
+                            <button class="item-lista-button">
+                                <img src="./assets/image/delete.svg" alt="remover">
+                            </button>
+                            <button class="item-lista-button">
+                                <img src="./assets/image/edit.svg" alt="editar">
+                            </button>
+                        </div>
+                    </div>
+                    <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
+                </li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
