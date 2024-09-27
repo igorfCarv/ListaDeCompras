@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css" />
+</head>
+<body>
+    <main>
+        <img src="./assets/image/bag.png" alt="sacola de compras" class="imagem" />
+
+        <form class="container-button">
+            <input type="text" id="itemInput" placeholder="Digite o item que deseja adicionar">
+            <button id="adicionarBtn">Salvar item</button>
+        </form>
+        <section class="list">
+            <div>
+                <h2>Lista de Compras</h2>
+                <hr />
+                <ul id="listaDeCompras">
+                    <li>
+                        <div>
+                            <input type="checkbox">
+                            <p>Ração do gato</p>
+                            <p>Segunda, 4 de maio de 2024</p>
+                            <div>
+                                <img src="./assets/image/delete" alt="remover"/>
+                                <img src="./assets/image/edit" alt="editar"/>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
